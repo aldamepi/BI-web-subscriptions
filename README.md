@@ -24,8 +24,10 @@ The results of that analysis are displayed below and two more different sections
 2. __Exploratory Dashboard__: [view in Tableau Public](https://public.tableau.com/app/profile/alberto.mengual/viz/BIAnalysisWebSubscriptions/Dashboard1)
 
 ## Insights and Anomalies
-* It seems there is a decrease in the Average Order Value significantly in may for the _Smart_ license: Even though the number of purchases increases the amount remains the same.
-![](story/numberQuantityPurchases.png)
+* It seems there is a significant decrease in the Average Order Value in may for the _Smart_ license: Even though the number of purchases increases the amount remains the same.  
+
+![](story/numberQuantityPurchases.png)  
+
 * It is interesting the increase of sales in the _Smart Plus_ license that brings an increase in incomes particularly in may.
 
 Section 10.3.1:
@@ -36,22 +38,28 @@ Section 10.3.2:
 * The number of purchased subscriptions for _Enterprise_ does not grow. Moreover, in february drop.
 * There are no yearly cancelations for smart plus. 
 
-Section 11. Revenue Dynamics:
-![](story/revenue.png)
+Section 11. Revenue Dynamics:  
+
+![](story/revenue.png)  
+
 * The revenue _Smart - Year_ subscriptions was higher than _Smart - Month_.
 * During the months of april and may 2021 the revenue of the year subscriptions beging decreasing and the month subscriptions increase at the same time.
 * The revenue for the _Smart Plus - Month_ subscriptios shows a considerable raise.
 
-Section 12.7. Plot Churn Rate and Lifetime Value:
-![](story/mcr+ltv.png)
+Section 12.7. Plot Churn Rate and Lifetime Value:  
+
+![](story/mcr+ltv.png)  
+
 * The __highest lifetime values__ correspond _Smart Plus - Year_ and _Smart - Year_ subscriptions.
 * It is interesting the lowest lifetime values corresponds to _Enterprise_  that comprises the highest revenue.
 * The _Smart Plus - Month_'s Churn Rate is unusually high.   
 * The _Enterprise - Year_'s Churn Rate is unusually high in march and april.  
 * The _Smart Plus - Year_'s  __churn rate is unusually low__.   
 
-Section 13.3. Plot Month over Month Growth and Gross Churn Rate:
-![](story/mom+gcr.png)
+Section 13.3. Plot Month over Month Growth and Gross Churn Rate:  
+
+![](story/mom+gcr.png). 
+
 * Usually the year subscriptions grow slower than month subscriptions.
 * The Gross Churn Rate of _Enterprise - Year_ is the highest.
 * The _Smart Plus - Year_ subscriptions have __the highest Month on Month growth rate__.
@@ -59,10 +67,11 @@ Section 13.3. Plot Month over Month Growth and Gross Churn Rate:
 ## Prices increase
 
 ### Majority of Purchases
-Section 17.
+Section 17.  
+
 ![](story/cat_class.png)
 
-For every license_name (enterprise, smart plus and smart) and its billing periods (month and year) the average order value is aproximately the same as the most expensive package for its category (license-period). Furthermore the majority (80%) of the customers purchase every month that amount or less of money.
+For every license_name (enterprise, smart plus and smart) and its billing periods (month and year) the average order value is approximately the same as the most expensive package for its category (license-period). Furthermore the majority (80%) of the customers purchase every month that amount or less of money.
 
 1. One price strategy could be __creating new packages__: increasing not only the prices, but also adding more value by including new products and/or a discount in the packages.
     + I would suggest beginning with categories with __the lowest MCR, LTV and Revenue Concentration__:
