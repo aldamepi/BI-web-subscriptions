@@ -1,6 +1,20 @@
 # BI Analysis: Web Subscriptions
 Perform analysis for the subscription commerce project, which sells services for the online training platform.
 
+
+## CONTENTS
+
+* Objective
+* Role
+* Datasets
+* Tools
+* Code
+* Results
+
+
+## Objective
+Carry out the operational analytics required to support decision making.  
+
 Main tasks:
 * Dynamics of the number of purchased subscriptions by month
 * Dynamics of the number of active subscriptions by month
@@ -13,8 +27,34 @@ Bonus:
 * define the packages a subscription price increase is possible for
 * determine if there are data anomalies
 
-## Results of the analysis
-The results of that analysis are displayed below and two more different sections:
+SQL Tasks:
+* Write a query that calculates cumulative growth of the number of subscription purchases each month, split by subscription type.
+* Write a query that allows to get a cohort analysis to calculate % Retention Rate.
+
+
+## Role
+BI Analyst who interprets and analyzes the anonymized dataset.
+
+
+## Dataset
+The file 'subscription_dataset_DA_test_task.csv' in the [data folder](https://github.com/aldamepi/BI-web-subscriptions/tree/master/data) contains all the provided registers.
+The same folder has this dataset cleaned and transformed for the required tasks.
+
+## Tools
+* Python 2.9
+* Jupyter Notebook 6.4.5 (with extensions) 
+* Tableau 2022.2.1
+* MySQL Workbench 8.0
+
+
+## Code
+The Python code with the calculations is in the notebook: 'testTask_data-amengual-aug22.ipynb'.
+The SQL code is in the [sql folder](https://github.com/aldamepi/BI-web-subscriptions/tree/master/sql).
+
+
+
+## Results
+The results of this analysis are displayed below and two more different sections:
 1. __Jupyter-notebook__ in the root of the repo containing: 
     + The performed exploratory analysis with 14 sequential sections.
     + A discussion of the possible lines of analysis
@@ -23,7 +63,7 @@ The results of that analysis are displayed below and two more different sections
     + A discussion of the possibilities of increasing the prices by two ways: comparing to the majority of customers purchases and regarding the price elasticity.
 2. __Exploratory Dashboard__: [view in Tableau Public](https://public.tableau.com/app/profile/alberto.mengual/viz/BIAnalysisWebSubscriptions/Dashboard1)
 
-## Insights and Anomalies
+### Insights and Anomalies
 * It seems there is a significant decrease in the Average Order Value in may for the _Smart_ license: Even though the number of purchases increases the amount remains the same.  
 
 ![](story/numberQuantityPurchases.png)  
@@ -64,9 +104,9 @@ Section 13.3. Plot Month over Month Growth and Gross Churn Rate:
 * The Gross Churn Rate of _Enterprise - Year_ is the highest.
 * The _Smart Plus - Year_ subscriptions have __the highest Month on Month growth rate__.
 
-## Prices increase
+### Prices increase
 
-### Majority of Purchases
+#### Majority of Purchases
 Section 17.  
 
 ![](story/cat_class.png)
@@ -83,7 +123,7 @@ For every license_name (enterprise, smart plus and smart) and its billing period
 
 Furthermore, I would study how to reduce the MCR in _Enterprise-Year_ and _Smart Plus-Month_ licenses.  
 
-### Linear Elasticity
+#### Linear Elasticity
 Section 18.
 
 
