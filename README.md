@@ -12,7 +12,7 @@ Perform analysis for the subscription commerce project, which sells services for
 * Results
 
 
-## Objective
+## OBJECTIVE
 Carry out the operational analytics required to support decision making.  
 
 Main tasks:
@@ -32,28 +32,29 @@ SQL Tasks:
 * Write a query that allows to get a cohort analysis to calculate % Retention Rate.
 
 
-## Role
+## ROLE
 BI Analyst who interprets and analyzes the anonymized dataset.
 
 
-## Dataset
-The file 'subscription_dataset_DA_test_task.csv' in the [data folder](https://github.com/aldamepi/BI-web-subscriptions/tree/master/data) contains all the provided registers.
+## DATASETS
+
+The file 'subscription_dataset_DA_test_task.csv' in the [data folder](https://github.com/aldamepi/BI-web-subscriptions/tree/master/data) contains all the provided registers.  
 The same folder has this dataset cleaned and transformed for the required tasks.
 
-## Tools
+## TOOLS
 * Python 2.9
 * Jupyter Notebook 6.4.5 (with extensions) 
 * Tableau 2022.2.1
 * MySQL Workbench 8.0
 
 
-## Code
+## CODE
 The Python code with the calculations is in the notebook: 'testTask_data-amengual-aug22.ipynb'.
 The SQL code is in the [sql folder](https://github.com/aldamepi/BI-web-subscriptions/tree/master/sql).
 
 
 
-## Results
+## RESULTS
 The results of this analysis are displayed below and two more different sections:
 1. __Jupyter-notebook__ in the root of the repo containing: 
     + The performed exploratory analysis with 14 sequential sections.
